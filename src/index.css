@@ -104,7 +104,7 @@ input:focus {
 }
 
 .feed {
-  overflow: scroll;
+  overflow-y: scroll;
   width: 100%;
   padding: 0;
 }
@@ -112,7 +112,17 @@ input:focus {
 .feed li {
   display: flex;
   background-color: #444654;
-  width: 100%;
+  width: 96%;
   padding: 20px;
   margin: 20px 0;
+}
+
+.feed p {
+  color: rgb(255, 255, 255, .8);
+  font-size: 14px;
+  text-align: left;
+}
+
+.feed p.role {
+  min-width: 100px
 }
